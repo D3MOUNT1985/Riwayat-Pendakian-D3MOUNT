@@ -147,3 +147,17 @@ footer p {
     padding: 1.2rem;
   }
 }
+.image-container {
+  width: 60vmin;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
